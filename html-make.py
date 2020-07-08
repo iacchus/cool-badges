@@ -2,6 +2,7 @@
 
 import json
 
+import page_model
 import models
 
 MODEL_REGISTRY = dict()
@@ -37,6 +38,8 @@ for model_name, model_str in MODEL_REGISTRY.items():
                                           title=item['title'].lower())
                        for item in icon_data['icons']
                        if item['title'].lower() in software])
+
+    print(page_model.page_model.format(model_name=model_name, html=our_html))
 
 
 print(our_html)
