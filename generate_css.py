@@ -20,18 +20,21 @@ software = ['android', 'apache', 'archlinux', 'ardour', 'asciinema',
 with open('simple-icons.json', 'r') as data:
     icon_data = json.load(data)
 
-our_css = str()
+all_css = str()
+model_css = dict()
 
 for model_name, model_str in models_css.MODEL_REGISTRY.items():
 
-    our_css += "".join([model_str.format(hex_color_left=item['hex'],
+    model_css.update({model_name:
+                      "".join([model_str.format(hex_color_left=item['hex'],
                                hex_bgcolor_left='rgba(255, 255, 255, 0.9)',
                                hex_color_right='rgba(255, 255, 255, 0.9)',
                                hex_bgcolor_right=item['hex'],
                                icon_name=item['title'],
                                title=item['title'].lower())
                        for item in icon_data['icons']
-                       if item['title'].lower() in software])
+                       if item['title'].lower() in software])})
+     all_css += model_css[model_name]
 
 
 #for item in icon_data['icons']:
