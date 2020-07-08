@@ -2,6 +2,7 @@
 
 import json
 
+import css_base
 import models_css
 
 software = ['android', 'apache', 'archlinux', 'ardour', 'asciinema',
@@ -23,16 +24,28 @@ with open('simple-icons.json', 'r') as data:
 all_css = str()
 model_css = dict()
 
+all_css += css_base.model
+
 for model_name, model_str in models_css.MODEL_REGISTRY.items():
 
-    model_css.update({model_name:
-                      "".join([model_str.format(hex_color_left=item['hex'],
+#    model_css.update({model_name:
+#                      "".join([model_str.format(hex_color_left=item['hex'],
+#                               hex_bgcolor_left='rgba(255, 255, 255, 0.9)',
+#                               hex_color_right='rgba(255, 255, 255, 0.9)',
+#                               hex_bgcolor_right=item['hex'],
+#                               icon_name=item['title'],
+#                               title=item['title'].lower())
+#                       for item in icon_data['icons']
+#                       if item['title'].lower() in software])})
+#    all_css += model_css[model_name]
+    pre_model = "".join([model_str.format(hex_color_left=item['hex'],
                                hex_bgcolor_left='rgba(255, 255, 255, 0.9)',
                                hex_color_right='rgba(255, 255, 255, 0.9)',
                                hex_bgcolor_right=item['hex'],
                                icon_name=item['title'],
                                title=item['title'].lower())
-                       for item in icon_data['icons']
-                       if item['title'].lower() in software])})
-    all_css += model_css[model_name]
+                        for item in icon_data['icons']
+                        if item['title'].lower() in software])
+    all_css += pre_model
+    model_css.update({model_name: "{0}{1}".format(css_base, pre_model)})
 

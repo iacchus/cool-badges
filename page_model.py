@@ -1,4 +1,4 @@
-HTML_ORIGINAL = 'index.html'
+HTML_ORIGINAL = 'base-index.html'
 
 CSS_INJECTION_TAG = '<!--CSS-GOES-HERE-->'
 HTML_INJECTION_TAG = '<!--HTML-GOES-HERE-->'
