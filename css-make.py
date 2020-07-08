@@ -32,10 +32,10 @@ software = ['android', 'apache', 'archlinux', 'ardour', 'asciinema',
 #"""
 
 # let's get our badge models and register them locally
-for key, value in models_css.__dict__.items():
-    if key.startswith('model_'):
-        model_name = key.split('_', maxsplit=1)[1]
-        MODEL_REGISTRY.update({model_name: value})
+#for key, value in models_css.__dict__.items():
+#    if key.startswith('model_'):
+#        model_name = key.split('_', maxsplit=1)[1]
+#        MODEL_REGISTRY.update({model_name: value})
 
 with open('simple-icons.json', 'r') as data:
     icon_data = json.load(data)
@@ -47,7 +47,7 @@ with open('simple-icons.json', 'r') as data:
 our_css = str()
 #print(MODEL_REGISTRY)
 
-for model_name, model_str in MODEL_REGISTRY.items():
+for model_name, model_str in models_css.MODEL_REGISTRY.items():
 
     our_css += "".join([model_str.format(hex_color_left=item['hex'],
                                hex_bgcolor_left='rgba(255, 255, 255, 0.9)',

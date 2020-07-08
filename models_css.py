@@ -15,5 +15,6 @@ model_a = """
 """
 
 # let's get our badge models and register them
+self = locals()
 MODEL_REGISTRY = {"_".join(key.split('_')[1:]): value
                   for key, value in self.items() if key.startswith('model_')}
