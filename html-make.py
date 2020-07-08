@@ -3,6 +3,7 @@
 import json
 
 import page_model
+import css_model
 import models
 
 MODEL_REGISTRY = dict()
