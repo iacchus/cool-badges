@@ -26,7 +26,10 @@ def write_file(path, data):
 
     if config.DEBUG:
 
-        print(f"path: {path}", f"data: {data}", sep='\n')
+        if not config.SHOW_DATA:
+            data = '(n/a)'
+
+        print(f"path: {path}", f"data: {data}", sep='\n', end='\n\n')
 
         return True
 

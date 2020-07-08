@@ -1,6 +1,8 @@
 import json
 
 DEBUG = True
+DEBUG = False
+SHOW_DATA = True
 
 DIR_ROOT = './'
 DIR_BUILD_INDEX = f"{DIR_ROOT}"

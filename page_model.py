@@ -2,7 +2,7 @@ HTML_ORIGINAL = 'index.html'
 
 CSS_INJECTION_TAG = '<!--CSS-GOES-HERE-->'
 HTML_INJECTION_TAG = '<!--HTML-GOES-HERE-->'
-CSS_STR = (5*' ' + '<link href="style-{model_name}.css" '
+CSS_STR = (5*' ' + '<link href="style.{model_name}.css" '
                'rel="stylesheet" type="text/css" />')
 HTML_STR = "{html}"
 
