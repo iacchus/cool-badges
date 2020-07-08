@@ -16,36 +16,11 @@ software = ['android', 'apache', 'archlinux', 'ardour', 'asciinema',
             'ubuntu', 'unity', 'vim', 'wechat', 'wikipedia', 'wordpress',
             'x-dot-org']
 
-#model = """
-#/* {icon_name} */
-#
-#.{title}-badge {{}}
-#.{title}-left {{
-#  color: #{hex_color_left};
-#  background-color: #{hex_bgcolor_left};
-#}}
-#.{title}-right {{
-#  color: #{hex_color_right};
-#  background-color: #{hex_bgcolor_right};
-#}}
-#
-#"""
-
-# let's get our badge models and register them locally
-#for key, value in models_css.__dict__.items():
-#    if key.startswith('model_'):
-#        model_name = key.split('_', maxsplit=1)[1]
-#        MODEL_REGISTRY.update({model_name: value})
 
 with open('simple-icons.json', 'r') as data:
     icon_data = json.load(data)
 
-#print(icon_data)
-
-#our_items = list()
-#our_data = dict()
 our_css = str()
-#print(MODEL_REGISTRY)
 
 for model_name, model_str in models_css.MODEL_REGISTRY.items():
 
