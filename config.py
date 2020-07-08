@@ -1,0 +1,3 @@
+DIR_ROOT = './'
+DIR_BUILD_INDEX = "f{DIR_ROOT}"
+DIR_BUILD_MODEL = "f{DIR_ROOT}/html"

@@ -4,9 +4,8 @@ import json
 
 import page_model
 import css_model
-import models
+import models_html
 
-MODEL_REGISTRY = dict()
 
 software = ['android', 'apache', 'archlinux', 'ardour', 'asciinema',
             'awesomewm', 'coffeescript', 'concourse', 'css3', 'c',
@@ -22,10 +21,10 @@ software = ['android', 'apache', 'archlinux', 'ardour', 'asciinema',
 
 
 # let's get our badge models and register them locally
-for key, value in models.__dict__.items():
-    if key.startswith('model_'):
-        model_name = key.split('_', maxsplit=1)[1]
-        MODEL_REGISTRY.update({model_name: value})
+#for key, value in models.__dict__.items():
+#    if key.startswith('model_'):
+#        model_name = key.split('_', maxsplit=1)[1]
+#        MODEL_REGISTRY.update({model_name: value})
 
 with open('simple-icons.json', 'r') as data:
     icon_data = json.load(data)
@@ -33,15 +32,15 @@ with open('simple-icons.json', 'r') as data:
 our_html = str()
 
 #print(MODEL_REGISTRY)
-for model_name, model_str in MODEL_REGISTRY.items():
+for model_name, model_str in models_html.MODEL_REGISTRY.items():
 
     our_html += "".join([model_str.format(icon_name=item['title'],
                                           title=item['title'].lower())
                        for item in icon_data['icons']
                        if item['title'].lower() in software])
 
-    print(page_model.page_model.format(model_name=model_name, html=our_html))
+    print(page_model.model.format(model_name=model_name, html=our_html))
 
 
-print(our_html)
+#print(our_html)
 
