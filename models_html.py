@@ -16,7 +16,6 @@ model_a = """
     <div class="right {title}-right">{title}</div>
   </div>
 </div>
-
 """
 
 # let's get our badge models and register them

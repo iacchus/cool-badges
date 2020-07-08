@@ -34,21 +34,5 @@ for model_name, model_str in models_css.MODEL_REGISTRY.items():
                                title=item['title'].lower())
                        for item in icon_data['icons']
                        if item['title'].lower() in software])})
-     all_css += model_css[model_name]
-
-
-#for item in icon_data['icons']:
-#    #print(item)
-#    if item['title'].lower() in software:
-#        #our_data.update({item['title'].lower(): (item['title'], item['hex'],)})
-#        #our_items.append(item)
-#        our_css += model.format(hex_color_left=item['hex'],
-#                               hex_bgcolor_left='rgba(255, 255, 255, 0.9)',
-#                               hex_color_right='rgba(255, 255, 255, 0.9)',
-#                               hex_bgcolor_right=item['hex'],
-#                               icon_name=item['title'],
-#                               title=item['title'].lower())
-
-print(our_css)
-
+    all_css += model_css[model_name]
 

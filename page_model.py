@@ -2,8 +2,9 @@ HTML_ORIGINAL = 'index.html'
 
 CSS_INJECTION_TAG = '<!--CSS-GOES-HERE-->'
 HTML_INJECTION_TAG = '<!--HTML-GOES-HERE-->'
-CSS_STR='    <link href="style-{model_name}.css" rel="stylesheet" type="text/css" />'
-HTML_STR="{html}"
+CSS_STR = (5*' ' + '<link href="style-{model_name}.css" '
+               'rel="stylesheet" type="text/css" />')
+HTML_STR = "{html}"
 
 with open(HTML_ORIGINAL, 'r') as original:
     pre_model = original.read()
