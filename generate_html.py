@@ -35,7 +35,7 @@ for model_name, model_str in reversed(models_html.MODEL_REGISTRY.items()):
 
             model_renderized += model_str.format(icon_name=icon_name,
                                                 title=uri,
-                                                svg=svg)
+                                                svg=svg, model=model_name)
 
     model_html.update({model_name: model_renderized})
 

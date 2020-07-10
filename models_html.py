@@ -10,14 +10,10 @@ model_a = """
 {icon_name}
 
 -->
-<!--<div class="box">-->
-  <div class="badge {title}-badge">
-    <!--<div class="left {title}-left"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/{title}.svg" /></div>-->
-    <!--<div class="left {title}-left"><img src="simple-icons/{title}.svg" /></div>-->
-    <div class="left {title}-left">{svg}</div>
-    <div class="right {title}-right">{title}</div>
-  </div>
-<!--</div>-->
+<div class="badge badge-{model} {title}-{model}-badge">
+  <div class="left left-{model} {title}-{model}-left">{svg}</div>
+  <div class="right right-{model} {title}-{model}-right">{title}</div>
+</div>
 """
 
 model_b = """
@@ -26,15 +22,13 @@ model_b = """
 {icon_name}
 
 -->
-<!--<div class="box">-->
-  <div class="badge {title}-badge">
-    <!--<div class="left {title}-left"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/{title}.svg" /></div>-->
-    <!--<div class="left {title}-left"><img src="simple-icons/{title}.svg" /></div>-->
-    <div class="left {title}-left">{svg}</div>
-    <div class="right {title}-right">{icon_name}</div>
-  </div>
-<!--</div>-->
+<div class="badge badge-{model} {title}-{model}-badge">
+  <div class="left left-{model} {title}-{model}-left">{svg}</div>
+  <div class="right right-{model} {title}-{model}-right">{icon_name}</div>
+</div>
 """
+
+model_c = model_b
 
 # let's get our badge models and register them
 self = locals()

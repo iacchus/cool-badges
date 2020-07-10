@@ -33,7 +33,7 @@ for model_name, model_str in reversed(models_css.MODEL_REGISTRY.items()):
                                    hex_color_right='rgba(255, 255, 255, 0.9)',
                                    hex_bgcolor_right=item['hex'],
                                    icon_name=icon_name,
-                                   title=uri)
+                                   title=uri, model=model_name)
     all_css += pre_model
 
     model_css.update({model_name: "{0}{1}".format(css_base, pre_model)})
