@@ -1,30 +1,4 @@
 <module 'css_base' from '/home/filosofo/git-stuff/cool-badges/css_base.py'>
-/* AdBlock */
-
-.adblock-badge {}
-.adblock-left {
-  color: #F40D12;
-  background-color: #rgba(255, 255, 255, 0.9);
-}
-.adblock-right {
-  color: #rgba(255, 255, 255, 0.9);
-  background-color: #F40D12;
-}
-
-
-/* Adblock Plus */
-
-.adblockplus-badge {}
-.adblockplus-left {
-  color: #C70D2C;
-  background-color: #rgba(255, 255, 255, 0.9);
-}
-.adblockplus-right {
-  color: #rgba(255, 255, 255, 0.9);
-  background-color: #C70D2C;
-}
-
-
 /* Alpine Linux */
 
 .alpinelinux-badge {}

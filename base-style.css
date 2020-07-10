@@ -13,9 +13,9 @@ body {
 
 #container {
   max-width: 826px;
-  padding: 4px;
-  border: 1px solid #eee;
-  margin: 3px auto;
+  padding: 11px;
+  //border: 1px solid #eee;
+  margin: 0px auto;
 
 }
 

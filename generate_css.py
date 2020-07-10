@@ -17,7 +17,7 @@ model_css = dict()
 
 all_css += css_base.model
 
-for model_name, model_str in models_css.MODEL_REGISTRY.items():
+for model_name, model_str in reversed(models_css.MODEL_REGISTRY.items()):
 
     pre_model = str()
 

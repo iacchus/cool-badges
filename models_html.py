@@ -20,6 +20,22 @@ model_a = """
 <!--</div>-->
 """
 
+model_b = """
+<!--
+
+{icon_name}
+
+-->
+<!--<div class="box">-->
+  <div class="badge {title}-badge">
+    <!--<div class="left {title}-left"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/{title}.svg" /></div>-->
+    <!--<div class="left {title}-left"><img src="simple-icons/{title}.svg" /></div>-->
+    <div class="left {title}-left">{svg}</div>
+    <div class="right {title}-right">{icon_name}</div>
+  </div>
+<!--</div>-->
+"""
+
 # let's get our badge models and register them
 self = locals()
 MODEL_REGISTRY = {"_".join(key.split('_')[1:]): value

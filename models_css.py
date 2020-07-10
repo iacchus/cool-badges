@@ -14,6 +14,8 @@ model_a = """
 
 """
 
+model_b = model_a
+
 # let's get our badge models and register them
 self = locals()
 MODEL_REGISTRY = {"_".join(key.split('_')[1:]): value
