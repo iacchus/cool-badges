@@ -1,0 +1,2782 @@
+<module 'css_base' from '/home/filosofo/git-stuff/cool-badges/css_base.py'>
+/* Alpine Linux */
+
+.alpinelinux-badge {}
+.alpinelinux-left {
+  color: #0D597F;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.alpinelinux-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0D597F;
+}
+
+
+/* AMD */
+
+.amd-badge {}
+.amd-left {
+  color: #ED1C24;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.amd-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #ED1C24;
+}
+
+
+/* Anaconda */
+
+.anaconda-badge {}
+.anaconda-left {
+  color: #42B029;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.anaconda-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #42B029;
+}
+
+
+/* Android */
+
+.android-badge {}
+.android-left {
+  color: #3DDC84;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.android-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3DDC84;
+}
+
+
+/* Android Studio */
+
+.androidstudio-badge {}
+.androidstudio-left {
+  color: #3DDC84;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.androidstudio-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3DDC84;
+}
+
+
+/* Angular */
+
+.angular-badge {}
+.angular-left {
+  color: #DD0031;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.angular-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #DD0031;
+}
+
+
+/* Apache */
+
+.apache-badge {}
+.apache-left {
+  color: #D22128;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.apache-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #D22128;
+}
+
+
+/* Apache Ant */
+
+.apacheant-badge {}
+.apacheant-left {
+  color: #A81C7D;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.apacheant-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #A81C7D;
+}
+
+
+/* Apache Cordova */
+
+.apachecordova-badge {}
+.apachecordova-left {
+  color: #E8E8E8;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.apachecordova-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #E8E8E8;
+}
+
+
+/* Apache ECharts */
+
+.apacheecharts-badge {}
+.apacheecharts-left {
+  color: #AA344D;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.apacheecharts-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #AA344D;
+}
+
+
+/* Apache Flink */
+
+.apacheflink-badge {}
+.apacheflink-left {
+  color: #E6526F;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.apacheflink-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #E6526F;
+}
+
+
+/* Apache NetBeans IDE */
+
+.apachenetbeanside-badge {}
+.apachenetbeanside-left {
+  color: #1B6AC6;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.apachenetbeanside-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1B6AC6;
+}
+
+
+/* Apache OpenOffice */
+
+.apacheopenoffice-badge {}
+.apacheopenoffice-left {
+  color: #0E85CD;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.apacheopenoffice-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0E85CD;
+}
+
+
+/* Arch Linux */
+
+.archlinux-badge {}
+.archlinux-left {
+  color: #1793D1;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.archlinux-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1793D1;
+}
+
+
+/* Ardour */
+
+.ardour-badge {}
+.ardour-left {
+  color: #C61C3E;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.ardour-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #C61C3E;
+}
+
+
+/* Arduino */
+
+.arduino-badge {}
+.arduino-left {
+  color: #00979D;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.arduino-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #00979D;
+}
+
+
+/* asciinema */
+
+.asciinema-badge {}
+.asciinema-left {
+  color: #D40000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.asciinema-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #D40000;
+}
+
+
+/* Atari */
+
+.atari-badge {}
+.atari-left {
+  color: #E4202E;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.atari-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #E4202E;
+}
+
+
+/* Atlassian */
+
+.atlassian-badge {}
+.atlassian-left {
+  color: #0052CC;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.atlassian-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0052CC;
+}
+
+
+/* Atom */
+
+.atom-badge {}
+.atom-left {
+  color: #66595C;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.atom-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #66595C;
+}
+
+
+/* Awesome Lists */
+
+.awesomelists-badge {}
+.awesomelists-left {
+  color: #FC60A8;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.awesomelists-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FC60A8;
+}
+
+
+/* awesomeWM */
+
+.awesomewm-badge {}
+.awesomewm-left {
+  color: #535D6C;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.awesomewm-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #535D6C;
+}
+
+
+/* Bandcamp */
+
+.bandcamp-badge {}
+.bandcamp-left {
+  color: #408294;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.bandcamp-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #408294;
+}
+
+
+/* Bitbucket */
+
+.bitbucket-badge {}
+.bitbucket-left {
+  color: #0052CC;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.bitbucket-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0052CC;
+}
+
+
+/* Bitcoin */
+
+.bitcoin-badge {}
+.bitcoin-left {
+  color: #F7931A;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.bitcoin-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F7931A;
+}
+
+
+/* Blender */
+
+.blender-badge {}
+.blender-left {
+  color: #F5792A;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.blender-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F5792A;
+}
+
+
+/* Buy Me A Coffee */
+
+.buymeacoffee-badge {}
+.buymeacoffee-left {
+  color: #FF813F;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.buymeacoffee-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FF813F;
+}
+
+
+/* C */
+
+.c-badge {}
+.c-left {
+  color: #A8B9CC;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.c-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #A8B9CC;
+}
+
+
+/* CentOS */
+
+.centos-badge {}
+.centos-left {
+  color: #262577;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.centos-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #262577;
+}
+
+
+/* CMake */
+
+.cmake-badge {}
+.cmake-left {
+  color: #064F8C;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.cmake-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #064F8C;
+}
+
+
+/* Codewars */
+
+.codewars-badge {}
+.codewars-left {
+  color: #AD2C27;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.codewars-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #AD2C27;
+}
+
+
+/* CoffeeScript */
+
+.coffeescript-badge {}
+.coffeescript-left {
+  color: #2F2625;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.coffeescript-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #2F2625;
+}
+
+
+/* Composer */
+
+.composer-badge {}
+.composer-left {
+  color: #885630;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.composer-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #885630;
+}
+
+
+/* Concourse */
+
+.concourse-badge {}
+.concourse-left {
+  color: #3398DC;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.concourse-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3398DC;
+}
+
+
+/* Coveralls */
+
+.coveralls-badge {}
+.coveralls-left {
+  color: #3F5767;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.coveralls-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3F5767;
+}
+
+
+/* Creative Commons */
+
+.creativecommons-badge {}
+.creativecommons-left {
+  color: #EF9421;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.creativecommons-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #EF9421;
+}
+
+
+/* Crunchbase */
+
+.crunchbase-badge {}
+.crunchbase-left {
+  color: #0288D1;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.crunchbase-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0288D1;
+}
+
+
+/* CSS3 */
+
+.css3-badge {}
+.css3-left {
+  color: #1572B6;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.css3-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1572B6;
+}
+
+
+/* curl */
+
+.curl-badge {}
+.curl-left {
+  color: #073551;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.curl-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #073551;
+}
+
+
+/* D3.js */
+
+.d3-dot-js-badge {}
+.d3-dot-js-left {
+  color: #F9A03C;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.d3-dot-js-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F9A03C;
+}
+
+
+/* Debian */
+
+.debian-badge {}
+.debian-left {
+  color: #A81D33;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.debian-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #A81D33;
+}
+
+
+/* Delicious */
+
+.delicious-badge {}
+.delicious-left {
+  color: #3399FF;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.delicious-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3399FF;
+}
+
+
+/* DeviantArt */
+
+.deviantart-badge {}
+.deviantart-left {
+  color: #05CC47;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.deviantart-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #05CC47;
+}
+
+
+/* Diaspora */
+
+.diaspora-badge {}
+.diaspora-left {
+  color: #000000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.diaspora-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #000000;
+}
+
+
+/* Digg */
+
+.digg-badge {}
+.digg-left {
+  color: #000000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.digg-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #000000;
+}
+
+
+/* Discourse */
+
+.discourse-badge {}
+.discourse-left {
+  color: #000000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.discourse-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #000000;
+}
+
+
+/* Disqus */
+
+.disqus-badge {}
+.disqus-left {
+  color: #2E9FFF;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.disqus-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #2E9FFF;
+}
+
+
+/* Django */
+
+.django-badge {}
+.django-left {
+  color: #092E20;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.django-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #092E20;
+}
+
+
+/* Docker */
+
+.docker-badge {}
+.docker-left {
+  color: #2496ED;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.docker-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #2496ED;
+}
+
+
+/* Drupal */
+
+.drupal-badge {}
+.drupal-left {
+  color: #0678BE;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.drupal-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0678BE;
+}
+
+
+/* Duolingo */
+
+.duolingo-badge {}
+.duolingo-left {
+  color: #58CC02;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.duolingo-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #58CC02;
+}
+
+
+/* Eclipse IDE */
+
+.eclipseide-badge {}
+.eclipseide-left {
+  color: #2C2255;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.eclipseide-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #2C2255;
+}
+
+
+/* Electron */
+
+.electron-badge {}
+.electron-left {
+  color: #47848F;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.electron-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #47848F;
+}
+
+
+/* Elm */
+
+.elm-badge {}
+.elm-left {
+  color: #1293D8;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.elm-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1293D8;
+}
+
+
+/* ESLint */
+
+.eslint-badge {}
+.eslint-left {
+  color: #4B32C3;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.eslint-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #4B32C3;
+}
+
+
+/* Fedora */
+
+.fedora-badge {}
+.fedora-left {
+  color: #294172;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.fedora-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #294172;
+}
+
+
+/* Firefox */
+
+.firefox-badge {}
+.firefox-left {
+  color: #FF7139;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.firefox-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FF7139;
+}
+
+
+/* Firefox Browser */
+
+.firefoxbrowser-badge {}
+.firefoxbrowser-left {
+  color: #FF7139;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.firefoxbrowser-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FF7139;
+}
+
+
+/* Fiverr */
+
+.fiverr-badge {}
+.fiverr-left {
+  color: #1DBF73;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.fiverr-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1DBF73;
+}
+
+
+/* Flask */
+
+.flask-badge {}
+.flask-left {
+  color: #000000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.flask-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #000000;
+}
+
+
+/* Flathub */
+
+.flathub-badge {}
+.flathub-left {
+  color: #4A86CF;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.flathub-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #4A86CF;
+}
+
+
+/* FreeBSD */
+
+.freebsd-badge {}
+.freebsd-left {
+  color: #AB2B28;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.freebsd-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #AB2B28;
+}
+
+
+/* freeCodeCamp */
+
+.freecodecamp-badge {}
+.freecodecamp-left {
+  color: #006400;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.freecodecamp-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #006400;
+}
+
+
+/* freedesktop.org */
+
+.freedesktop-dot-org-badge {}
+.freedesktop-dot-org-left {
+  color: #3B80AE;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.freedesktop-dot-org-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3B80AE;
+}
+
+
+/* Ghost */
+
+.ghost-badge {}
+.ghost-left {
+  color: #738A94;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.ghost-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #738A94;
+}
+
+
+/* GIMP */
+
+.gimp-badge {}
+.gimp-left {
+  color: #5C5543;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.gimp-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #5C5543;
+}
+
+
+/* Git */
+
+.git-badge {}
+.git-left {
+  color: #F05032;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.git-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F05032;
+}
+
+
+/* GitHub */
+
+.github-badge {}
+.github-left {
+  color: #181717;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.github-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #181717;
+}
+
+
+/* GitLab */
+
+.gitlab-badge {}
+.gitlab-left {
+  color: #FCA121;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.gitlab-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FCA121;
+}
+
+
+/* Gitter */
+
+.gitter-badge {}
+.gitter-left {
+  color: #ED1965;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.gitter-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #ED1965;
+}
+
+
+/* GNOME */
+
+.gnome-badge {}
+.gnome-left {
+  color: #4A86CF;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.gnome-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #4A86CF;
+}
+
+
+/* GNU */
+
+.gnu-badge {}
+.gnu-left {
+  color: #A42E2B;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.gnu-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #A42E2B;
+}
+
+
+/* GNU Bash */
+
+.gnubash-badge {}
+.gnubash-left {
+  color: #4EAA25;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.gnubash-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #4EAA25;
+}
+
+
+/* GNU Emacs */
+
+.gnuemacs-badge {}
+.gnuemacs-left {
+  color: #7F5AB6;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.gnuemacs-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #7F5AB6;
+}
+
+
+/* GNU IceCat */
+
+.gnuicecat-badge {}
+.gnuicecat-left {
+  color: #002F5B;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.gnuicecat-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #002F5B;
+}
+
+
+/* GNU Privacy Guard */
+
+.gnuprivacyguard-badge {}
+.gnuprivacyguard-left {
+  color: #0093DD;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.gnuprivacyguard-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0093DD;
+}
+
+
+/* GNU social */
+
+.gnusocial-badge {}
+.gnusocial-left {
+  color: #A22430;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.gnusocial-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #A22430;
+}
+
+
+/* Goodreads */
+
+.goodreads-badge {}
+.goodreads-left {
+  color: #663300;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.goodreads-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #663300;
+}
+
+
+/* Google Chrome */
+
+.googlechrome-badge {}
+.googlechrome-left {
+  color: #4285F4;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.googlechrome-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #4285F4;
+}
+
+
+/* Gravatar */
+
+.gravatar-badge {}
+.gravatar-left {
+  color: #1E8CBE;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.gravatar-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1E8CBE;
+}
+
+
+/* Hackaday */
+
+.hackaday-badge {}
+.hackaday-left {
+  color: #1A1A1A;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.hackaday-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1A1A1A;
+}
+
+
+/* HappyCow */
+
+.happycow-badge {}
+.happycow-left {
+  color: #7C4EC4;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.happycow-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #7C4EC4;
+}
+
+
+/* Haskell */
+
+.haskell-badge {}
+.haskell-left {
+  color: #5D4F85;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.haskell-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #5D4F85;
+}
+
+
+/* Hexo */
+
+.hexo-badge {}
+.hexo-left {
+  color: #0E83CD;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.hexo-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0E83CD;
+}
+
+
+/* HTML5 */
+
+.html5-badge {}
+.html5-left {
+  color: #E34F26;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.html5-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #E34F26;
+}
+
+
+/* Iconify */
+
+.iconify-badge {}
+.iconify-left {
+  color: #1769AA;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.iconify-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1769AA;
+}
+
+
+/* IMDb */
+
+.imdb-badge {}
+.imdb-left {
+  color: #E6B91E;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.imdb-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #E6B91E;
+}
+
+
+/* Imgur */
+
+.imgur-badge {}
+.imgur-left {
+  color: #1BB76E;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.imgur-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1BB76E;
+}
+
+
+/* Inkscape */
+
+.inkscape-badge {}
+.inkscape-left {
+  color: #000000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.inkscape-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #000000;
+}
+
+
+/* Instagram */
+
+.instagram-badge {}
+.instagram-left {
+  color: #E4405F;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.instagram-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #E4405F;
+}
+
+
+/* Intel */
+
+.intel-badge {}
+.intel-left {
+  color: #0071C5;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.intel-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0071C5;
+}
+
+
+/* Jabber */
+
+.jabber-badge {}
+.jabber-left {
+  color: #CC0000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.jabber-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #CC0000;
+}
+
+
+/* JavaScript */
+
+.javascript-badge {}
+.javascript-left {
+  color: #F7DF1E;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.javascript-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F7DF1E;
+}
+
+
+/* Jenkins */
+
+.jenkins-badge {}
+.jenkins-left {
+  color: #D24939;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.jenkins-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #D24939;
+}
+
+
+/* Joomla */
+
+.joomla-badge {}
+.joomla-left {
+  color: #5091CD;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.joomla-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #5091CD;
+}
+
+
+/* jQuery */
+
+.jquery-badge {}
+.jquery-left {
+  color: #0769AD;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.jquery-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0769AD;
+}
+
+
+/* JSFiddle */
+
+.jsfiddle-badge {}
+.jsfiddle-left {
+  color: #0084FF;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.jsfiddle-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0084FF;
+}
+
+
+/* JSON */
+
+.json-badge {}
+.json-left {
+  color: #000000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.json-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #000000;
+}
+
+
+/* Jupyter */
+
+.jupyter-badge {}
+.jupyter-left {
+  color: #F37626;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.jupyter-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F37626;
+}
+
+
+/* KDE */
+
+.kde-badge {}
+.kde-left {
+  color: #1D99F3;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.kde-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1D99F3;
+}
+
+
+/* Khan Academy */
+
+.khanacademy-badge {}
+.khanacademy-left {
+  color: #14BF96;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.khanacademy-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #14BF96;
+}
+
+
+/* Kotlin */
+
+.kotlin-badge {}
+.kotlin-left {
+  color: #0095D5;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.kotlin-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0095D5;
+}
+
+
+/* Krita */
+
+.krita-badge {}
+.krita-left {
+  color: #3BABFF;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.krita-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3BABFF;
+}
+
+
+/* Kubernetes */
+
+.kubernetes-badge {}
+.kubernetes-left {
+  color: #326CE5;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.kubernetes-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #326CE5;
+}
+
+
+/* Last.fm */
+
+.last-dot-fm-badge {}
+.last-dot-fm-left {
+  color: #D51007;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.last-dot-fm-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #D51007;
+}
+
+
+/* LaTeX */
+
+.latex-badge {}
+.latex-left {
+  color: #008080;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.latex-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #008080;
+}
+
+
+/* Launchpad */
+
+.launchpad-badge {}
+.launchpad-left {
+  color: #F8C300;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.launchpad-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F8C300;
+}
+
+
+/* Leaflet */
+
+.leaflet-badge {}
+.leaflet-left {
+  color: #199900;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.leaflet-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #199900;
+}
+
+
+/* Let’s Encrypt */
+
+.letsencrypt-badge {}
+.letsencrypt-left {
+  color: #003A70;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.letsencrypt-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #003A70;
+}
+
+
+/* LibreOffice */
+
+.libreoffice-badge {}
+.libreoffice-left {
+  color: #18A303;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.libreoffice-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #18A303;
+}
+
+
+/* LinkedIn */
+
+.linkedin-badge {}
+.linkedin-left {
+  color: #0077B5;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.linkedin-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0077B5;
+}
+
+
+/* Linode */
+
+.linode-badge {}
+.linode-left {
+  color: #00A95C;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.linode-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #00A95C;
+}
+
+
+/* Linux */
+
+.linux-badge {}
+.linux-left {
+  color: #FCC624;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.linux-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FCC624;
+}
+
+
+/* Linux Foundation */
+
+.linuxfoundation-badge {}
+.linuxfoundation-left {
+  color: #009BEE;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.linuxfoundation-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #009BEE;
+}
+
+
+/* LiveJournal */
+
+.livejournal-badge {}
+.livejournal-left {
+  color: #00B0EA;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.livejournal-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #00B0EA;
+}
+
+
+/* LMMS */
+
+.lmms-badge {}
+.lmms-left {
+  color: #10B146;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.lmms-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #10B146;
+}
+
+
+/* Lua */
+
+.lua-badge {}
+.lua-left {
+  color: #2C2D72;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.lua-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #2C2D72;
+}
+
+
+/* Lubuntu */
+
+.lubuntu-badge {}
+.lubuntu-left {
+  color: #0068C8;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.lubuntu-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0068C8;
+}
+
+
+/* Manjaro */
+
+.manjaro-badge {}
+.manjaro-left {
+  color: #35BF5C;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.manjaro-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #35BF5C;
+}
+
+
+/* Mastodon */
+
+.mastodon-badge {}
+.mastodon-left {
+  color: #3088D4;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.mastodon-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3088D4;
+}
+
+
+/* Material-UI */
+
+.material-ui-badge {}
+.material-ui-left {
+  color: #0081CB;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.material-ui-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0081CB;
+}
+
+
+/* Mixcloud */
+
+.mixcloud-badge {}
+.mixcloud-left {
+  color: #314359;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.mixcloud-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #314359;
+}
+
+
+/* MongoDB */
+
+.mongodb-badge {}
+.mongodb-left {
+  color: #47A248;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.mongodb-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #47A248;
+}
+
+
+/* Mozilla */
+
+.mozilla-badge {}
+.mozilla-left {
+  color: #000000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.mozilla-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #000000;
+}
+
+
+/* MuseScore */
+
+.musescore-badge {}
+.musescore-left {
+  color: #1A70B8;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.musescore-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1A70B8;
+}
+
+
+/* Myspace */
+
+.myspace-badge {}
+.myspace-left {
+  color: #030303;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.myspace-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #030303;
+}
+
+
+/* MySQL */
+
+.mysql-badge {}
+.mysql-left {
+  color: #4479A1;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.mysql-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #4479A1;
+}
+
+
+/* NGINX */
+
+.nginx-badge {}
+.nginx-left {
+  color: #269539;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.nginx-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #269539;
+}
+
+
+/* Nintendo */
+
+.nintendo-badge {}
+.nintendo-left {
+  color: #8F8F8F;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.nintendo-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #8F8F8F;
+}
+
+
+/* Node.js */
+
+.node-dot-js-badge {}
+.node-dot-js-left {
+  color: #339933;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.node-dot-js-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #339933;
+}
+
+
+/* NVIDIA */
+
+.nvidia-badge {}
+.nvidia-left {
+  color: #76B900;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.nvidia-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #76B900;
+}
+
+
+/* OBS Studio */
+
+.obsstudio-badge {}
+.obsstudio-left {
+  color: #302E31;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.obsstudio-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #302E31;
+}
+
+
+/* Open Badges */
+
+.openbadges-badge {}
+.openbadges-left {
+  color: #073B5A;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.openbadges-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #073B5A;
+}
+
+
+/* Open Collective */
+
+.opencollective-badge {}
+.opencollective-left {
+  color: #7FADF2;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.opencollective-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #7FADF2;
+}
+
+
+/* Open Source Initiative */
+
+.opensourceinitiative-badge {}
+.opensourceinitiative-left {
+  color: #3DA639;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.opensourceinitiative-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3DA639;
+}
+
+
+/* OpenAPI Initiative */
+
+.openapiinitiative-badge {}
+.openapiinitiative-left {
+  color: #6BA539;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.openapiinitiative-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #6BA539;
+}
+
+
+/* OpenBSD */
+
+.openbsd-badge {}
+.openbsd-left {
+  color: #F2CA30;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.openbsd-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F2CA30;
+}
+
+
+/* OpenGL */
+
+.opengl-badge {}
+.opengl-left {
+  color: #5586A4;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.opengl-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #5586A4;
+}
+
+
+/* OpenID */
+
+.openid-badge {}
+.openid-left {
+  color: #F78C40;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.openid-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F78C40;
+}
+
+
+/* OpenSSL */
+
+.openssl-badge {}
+.openssl-left {
+  color: #721412;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.openssl-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #721412;
+}
+
+
+/* openSUSE */
+
+.opensuse-badge {}
+.opensuse-left {
+  color: #73BA25;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.opensuse-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #73BA25;
+}
+
+
+/* OpenVPN */
+
+.openvpn-badge {}
+.openvpn-left {
+  color: #EA7E20;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.openvpn-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #EA7E20;
+}
+
+
+/* Origin */
+
+.origin-badge {}
+.origin-left {
+  color: #F56C2D;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.origin-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F56C2D;
+}
+
+
+/* pandas */
+
+.pandas-badge {}
+.pandas-left {
+  color: #150458;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.pandas-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #150458;
+}
+
+
+/* Pastebin */
+
+.pastebin-badge {}
+.pastebin-left {
+  color: #02456C;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.pastebin-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #02456C;
+}
+
+
+/* Pepsi */
+
+.pepsi-badge {}
+.pepsi-left {
+  color: #2151A1;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.pepsi-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #2151A1;
+}
+
+
+/* Perl */
+
+.perl-badge {}
+.perl-left {
+  color: #39457E;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.perl-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #39457E;
+}
+
+
+/* PHP */
+
+.php-badge {}
+.php-left {
+  color: #777BB4;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.php-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #777BB4;
+}
+
+
+/* Pokémon */
+
+.pokemon-badge {}
+.pokemon-left {
+  color: #FFCB05;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.pokemon-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FFCB05;
+}
+
+
+/* PostgreSQL */
+
+.postgresql-badge {}
+.postgresql-left {
+  color: #336791;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.postgresql-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #336791;
+}
+
+
+/* Postwoman */
+
+.postwoman-badge {}
+.postwoman-left {
+  color: #50FA7B;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.postwoman-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #50FA7B;
+}
+
+
+/* protocols.io */
+
+.protocols-dot-io-badge {}
+.protocols-dot-io-left {
+  color: #4D9FE7;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.protocols-dot-io-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #4D9FE7;
+}
+
+
+/* PyPI */
+
+.pypi-badge {}
+.pypi-left {
+  color: #3775A9;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.pypi-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3775A9;
+}
+
+
+/* Python */
+
+.python-badge {}
+.python-left {
+  color: #3776AB;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.python-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3776AB;
+}
+
+
+/* Qt */
+
+.qt-badge {}
+.qt-left {
+  color: #41CD52;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.qt-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #41CD52;
+}
+
+
+/* R */
+
+.r-badge {}
+.r-left {
+  color: #276DC3;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.r-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #276DC3;
+}
+
+
+/* Raspberry Pi */
+
+.raspberrypi-badge {}
+.raspberrypi-left {
+  color: #C51A4A;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.raspberrypi-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #C51A4A;
+}
+
+
+/* Read the Docs */
+
+.readthedocs-badge {}
+.readthedocs-left {
+  color: #8CA1AF;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.readthedocs-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #8CA1AF;
+}
+
+
+/* Reddit */
+
+.reddit-badge {}
+.reddit-left {
+  color: #FF4500;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.reddit-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FF4500;
+}
+
+
+/* repl.it */
+
+.repl-dot-it-badge {}
+.repl-dot-it-left {
+  color: #667881;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.repl-dot-it-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #667881;
+}
+
+
+/* RSS */
+
+.rss-badge {}
+.rss-left {
+  color: #FFA500;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.rss-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FFA500;
+}
+
+
+/* RStudio */
+
+.rstudio-badge {}
+.rstudio-left {
+  color: #75AADB;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.rstudio-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #75AADB;
+}
+
+
+/* Ruby on Rails */
+
+.rubyonrails-badge {}
+.rubyonrails-left {
+  color: #CC0000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.rubyonrails-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #CC0000;
+}
+
+
+/* Rust */
+
+.rust-badge {}
+.rust-left {
+  color: #000000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.rust-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #000000;
+}
+
+
+/* Sass */
+
+.sass-badge {}
+.sass-left {
+  color: #CC6699;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.sass-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #CC6699;
+}
+
+
+/* Scribd */
+
+.scribd-badge {}
+.scribd-left {
+  color: #1A7BBA;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.scribd-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1A7BBA;
+}
+
+
+/* Sega */
+
+.sega-badge {}
+.sega-left {
+  color: #0089CF;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.sega-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #0089CF;
+}
+
+
+/* Semantic Web */
+
+.semanticweb-badge {}
+.semanticweb-left {
+  color: #005A9C;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.semanticweb-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #005A9C;
+}
+
+
+/* Server Fault */
+
+.serverfault-badge {}
+.serverfault-left {
+  color: #E7282D;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.serverfault-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #E7282D;
+}
+
+
+/* Signal */
+
+.signal-badge {}
+.signal-left {
+  color: #2592E9;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.signal-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #2592E9;
+}
+
+
+/* Simple Icons */
+
+.simpleicons-badge {}
+.simpleicons-left {
+  color: #111111;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.simpleicons-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #111111;
+}
+
+
+/* Slashdot */
+
+.slashdot-badge {}
+.slashdot-left {
+  color: #026664;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.slashdot-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #026664;
+}
+
+
+/* Snapcraft */
+
+.snapcraft-badge {}
+.snapcraft-left {
+  color: #82BEA0;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.snapcraft-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #82BEA0;
+}
+
+
+/* SoundCloud */
+
+.soundcloud-badge {}
+.soundcloud-left {
+  color: #FF3300;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.soundcloud-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FF3300;
+}
+
+
+/* SourceForge */
+
+.sourceforge-badge {}
+.sourceforge-left {
+  color: #FF6600;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.sourceforge-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FF6600;
+}
+
+
+/* Spacemacs */
+
+.spacemacs-badge {}
+.spacemacs-left {
+  color: #9266CC;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.spacemacs-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #9266CC;
+}
+
+
+/* Spotify */
+
+.spotify-badge {}
+.spotify-left {
+  color: #1ED760;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.spotify-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1ED760;
+}
+
+
+/* SQLite */
+
+.sqlite-badge {}
+.sqlite-left {
+  color: #003B57;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.sqlite-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #003B57;
+}
+
+
+/* Stack Exchange */
+
+.stackexchange-badge {}
+.stackexchange-left {
+  color: #1E5397;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.stackexchange-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1E5397;
+}
+
+
+/* Stack Overflow */
+
+.stackoverflow-badge {}
+.stackoverflow-left {
+  color: #FE7A16;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.stackoverflow-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FE7A16;
+}
+
+
+/* Steam */
+
+.steam-badge {}
+.steam-left {
+  color: #000000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.steam-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #000000;
+}
+
+
+/* Stylus */
+
+.stylus-badge {}
+.stylus-left {
+  color: #333333;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.stylus-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #333333;
+}
+
+
+/* Super User */
+
+.superuser-badge {}
+.superuser-left {
+  color: #2EACE3;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.superuser-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #2EACE3;
+}
+
+
+/* SVG */
+
+.svg-badge {}
+.svg-left {
+  color: #FFB13B;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.svg-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FFB13B;
+}
+
+
+/* TED */
+
+.ted-badge {}
+.ted-left {
+  color: #E62B1E;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.ted-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #E62B1E;
+}
+
+
+/* The Movie Database */
+
+.themoviedatabase-badge {}
+.themoviedatabase-left {
+  color: #01D277;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.themoviedatabase-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #01D277;
+}
+
+
+/* Tor */
+
+.tor-badge {}
+.tor-left {
+  color: #7E4798;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.tor-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #7E4798;
+}
+
+
+/* Travis CI */
+
+.travisci-badge {}
+.travisci-left {
+  color: #3EAAAF;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.travisci-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #3EAAAF;
+}
+
+
+/* Tripadvisor */
+
+.tripadvisor-badge {}
+.tripadvisor-left {
+  color: #34E0A1;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.tripadvisor-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #34E0A1;
+}
+
+
+/* Tumblr */
+
+.tumblr-badge {}
+.tumblr-left {
+  color: #36465D;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.tumblr-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #36465D;
+}
+
+
+/* TuneIn */
+
+.tunein-badge {}
+.tunein-left {
+  color: #14D8CC;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.tunein-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #14D8CC;
+}
+
+
+/* Twitch */
+
+.twitch-badge {}
+.twitch-left {
+  color: #9146FF;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.twitch-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #9146FF;
+}
+
+
+/* uBlock Origin */
+
+.ublockorigin-badge {}
+.ublockorigin-left {
+  color: #800000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.ublockorigin-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #800000;
+}
+
+
+/* Ubuntu */
+
+.ubuntu-badge {}
+.ubuntu-left {
+  color: #E95420;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.ubuntu-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #E95420;
+}
+
+
+/* UIkit */
+
+.uikit-badge {}
+.uikit-left {
+  color: #2396F3;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.uikit-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #2396F3;
+}
+
+
+/* Unity */
+
+.unity-badge {}
+.unity-left {
+  color: #000000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.unity-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #000000;
+}
+
+
+/* Valve */
+
+.valve-badge {}
+.valve-left {
+  color: #F74843;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.valve-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F74843;
+}
+
+
+/* Vim */
+
+.vim-badge {}
+.vim-left {
+  color: #019733;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.vim-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #019733;
+}
+
+
+/* Vimeo */
+
+.vimeo-badge {}
+.vimeo-left {
+  color: #1AB7EA;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.vimeo-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #1AB7EA;
+}
+
+
+/* VLC media player */
+
+.vlcmediaplayer-badge {}
+.vlcmediaplayer-left {
+  color: #FF8800;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.vlcmediaplayer-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #FF8800;
+}
+
+
+/* Vue.js */
+
+.vue-dot-js-badge {}
+.vue-dot-js-left {
+  color: #4FC08D;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.vue-dot-js-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #4FC08D;
+}
+
+
+/* W3C */
+
+.w3c-badge {}
+.w3c-left {
+  color: #005A9C;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.w3c-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #005A9C;
+}
+
+
+/* WebAssembly */
+
+.webassembly-badge {}
+.webassembly-left {
+  color: #654FF0;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.webassembly-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #654FF0;
+}
+
+
+/* webcomponents.org */
+
+.webcomponents-dot-org-badge {}
+.webcomponents-dot-org-left {
+  color: #29ABE2;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.webcomponents-dot-org-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #29ABE2;
+}
+
+
+/* WebRTC */
+
+.webrtc-badge {}
+.webrtc-left {
+  color: #333333;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.webrtc-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #333333;
+}
+
+
+/* WeChat */
+
+.wechat-badge {}
+.wechat-left {
+  color: #7BB32E;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.wechat-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #7BB32E;
+}
+
+
+/* Wikimedia Commons */
+
+.wikimediacommons-badge {}
+.wikimediacommons-left {
+  color: #006699;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.wikimediacommons-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #006699;
+}
+
+
+/* Wikipedia */
+
+.wikipedia-badge {}
+.wikipedia-left {
+  color: #000000;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.wikipedia-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #000000;
+}
+
+
+/* Wolfram */
+
+.wolfram-badge {}
+.wolfram-left {
+  color: #DD1100;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.wolfram-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #DD1100;
+}
+
+
+/* WordPress */
+
+.wordpress-badge {}
+.wordpress-left {
+  color: #21759B;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.wordpress-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #21759B;
+}
+
+
+/* X.Org */
+
+.x-dot-org-badge {}
+.x-dot-org-left {
+  color: #F28834;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.x-dot-org-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F28834;
+}
+
+
+/* XDA Developers */
+
+.xdadevelopers-badge {}
+.xdadevelopers-left {
+  color: #F59812;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.xdadevelopers-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #F59812;
+}
+
+
+/* XFCE */
+
+.xfce-badge {}
+.xfce-left {
+  color: #2284F2;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.xfce-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #2284F2;
+}
+
+
+/* XMPP */
+
+.xmpp-badge {}
+.xmpp-left {
+  color: #002B5C;
+  background-color: #rgba(255, 255, 255, 0.9);
+}
+.xmpp-right {
+  color: #rgba(255, 255, 255, 0.9);
+  background-color: #002B5C;
+}
+
