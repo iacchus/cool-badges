@@ -7,18 +7,7 @@ import models_css
 
 import config
 
-#software = ['android', 'apache', 'archlinux', 'ardour', 'asciinema',
-#            'awesomewm', 'coffeescript', 'concourse', 'css3', 'c',
-#            'debian', 'duolingo', 'firefox', 'flask', 'freebsd', 'gimp',
-#            'github', 'gnuicecat', 'gnu', 'html5', 'imgur', 'inkscape',
-#            'jupyter', 'krita', 'last-dot-fm', 'latex', 'linux', 'lmms',
-#            'mozilla', 'musescore', 'mysql', 'obsstudio', 'openbsd',
-#            'opensourceinitiative', 'openssl', 'php', 'pypi', 'python',
-#            'reddit', 'repl-dot-it', 'rust', 'sega', 'simpleicons',
-#            'soundcloud', 'sqlite', 'stylus', 'tor', 'tunein', 'twitch',
-#            'ubuntu', 'unity', 'vim', 'wechat', 'wikipedia', 'wordpress',
-#            'x-dot-org']
-
+import utils
 
 with open('simple-icons.json', 'r') as data:
     icon_data = json.load(data)
@@ -30,24 +19,19 @@ all_css += css_base.model
 
 for model_name, model_str in models_css.MODEL_REGISTRY.items():
 
-#    model_css.update({model_name:
-#                      "".join([model_str.format(hex_color_left=item['hex'],
-#                               hex_bgcolor_left='rgba(255, 255, 255, 0.9)',
-#                               hex_color_right='rgba(255, 255, 255, 0.9)',
-#                               hex_bgcolor_right=item['hex'],
-#                               icon_name=item['title'],
-#                               title=item['title'].lower())
-#                       for item in icon_data['icons']
-#                       if item['title'].lower() in software])})
-#    all_css += model_css[model_name]
-    pre_model = "".join([model_str.format(hex_color_left=item['hex'],
-                               hex_bgcolor_left='rgba(255, 255, 255, 0.9)',
-                               hex_color_right='rgba(255, 255, 255, 0.9)',
-                               hex_bgcolor_right=item['hex'],
-                               icon_name=item['title'],
-                               title=item['title'].lower())
-                        for item in icon_data['icons']
-                        if item['title'].lower() in config.SOFTWARE])
+    pre_model = str()
+
+    for item in icon_data['icons']:
+
+        if utils.title_to_filename(item['title']) in config.SOFTWARE:
+
+            pre_model += model_str.format(hex_color_left=item['hex'],
+                                   hex_bgcolor_left='rgba(255, 255, 255, 0.9)',
+                                   hex_color_right='rgba(255, 255, 255, 0.9)',
+                                   hex_bgcolor_right=item['hex'],
+                                   icon_name=item['title'],
+                                   title=item['title'].lower())
     all_css += pre_model
+
     model_css.update({model_name: "{0}{1}".format(css_base, pre_model)})
 

@@ -8,19 +8,6 @@ import models_html
 import config
 
 
-#software = ['android', 'apache', 'archlinux', 'ardour', 'asciinema',
-#            'awesomewm', 'coffeescript', 'concourse', 'css3', 'c',
-#            'debian', 'duolingo', 'firefox', 'flask', 'freebsd', 'gimp',
-#            'github', 'gnuicecat', 'gnu', 'html5', 'imgur', 'inkscape',
-#            'jupyter', 'krita', 'last-dot-fm', 'latex', 'linux', 'lmms',
-#            'mozilla', 'musescore', 'mysql', 'obsstudio', 'openbsd',
-#            'opensourceinitiative', 'openssl', 'php', 'pypi', 'python',
-#            'reddit', 'repl-dot-it', 'rust', 'sega', 'simpleicons',
-#            'soundcloud', 'sqlite', 'stylus', 'tor', 'tunein', 'twitch',
-#            'ubuntu', 'unity', 'vim', 'wechat', 'wikipedia', 'wordpress',
-#            'x-dot-org']
-
-
 with open('simple-icons.json', 'r') as data:
     icon_data = json.load(data)
 
@@ -29,17 +16,20 @@ model_html = dict()
 
 for model_name, model_str in models_html.MODEL_REGISTRY.items():
 
-    model_html.update({model_name:
-                       "".join([model_str.format(icon_name=item['title'],
-                                                 title=item['title'].lower())
-                                for item in icon_data['icons']
-                                if item['title'].lower() in config.SOFTWARE])})
+    model_renderized = str()
 
-    #print(page_model.model.format(model_name=model_name, html=all_html))
+    for item in config.SOFTWARE: #icon_data['icons']:
+
+        filename = item.lower()
+
+        with open(f'{config.DIR_ICONS}{filename}.svg', 'r') as fd:
+            svg = fd.read()
+
+        model_renderized += model_str.format(icon_name=item,
+                                            title=item,
+                                            svg=svg)
+
+    model_html.update({model_name: model_renderized})
 
     all_html += model_html[model_name]
-
-#print(page_model.model.format(model_name=model_name, html=all_html))
-
-#print(all_html)
 

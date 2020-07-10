@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 'x-dot-org']
  //       ['awesomewm', 'archlinux']
 
-    software.forEach(function(simpleicon){
+    /*software.forEach(function(simpleicon){
 
     document.body.innerHTML += `
     <div class="box">
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
       </div>
     </div>
 `
-  })
+  })  */
 
   //document.querySelector("body").addEventListener("click", function() {
     //["object", "iframe", "embed", "img"].forEach(function(elmtType) {

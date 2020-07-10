@@ -11,8 +11,8 @@ body {
     //font-size: 10px;
 }
 
-.box {
-  width: 400px;
+#container {
+  max-width: 826px;
   padding: 4px;
   border: 1px solid #eee;
   margin: 3px auto;
