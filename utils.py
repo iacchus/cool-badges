@@ -85,8 +85,9 @@ def title_to_filename(name_str):
     our_str = re.sub('^&', 'and-', our_str)      # ^&
     our_str = re.sub('&$', '-and', our_str)      # &$
     our_str = re.sub('&', '-and-', our_str)     # &
-    our_str = re.sub('[ !:’\']', '', our_str)    # [ !:'']
     our_str = re.sub('à|á|â|ã|ä', 'a', our_str) # à|á|â|ã|ä
+    our_str = re.sub("[!:’']", '', our_str)    # [ !:'']
+    our_str = re.sub('\s', '', our_str)    # [ !:'']
     our_str = re.sub('ç|č|ć', 'c', our_str)     # ç|č|ć
     our_str = re.sub('è|é|ê|ë', 'e', our_str)   # è|é|ê|ë
     our_str = re.sub('ì|í|î|ï', 'i', our_str)   # ì|í|î|ï

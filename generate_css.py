@@ -23,14 +23,17 @@ for model_name, model_str in models_css.MODEL_REGISTRY.items():
 
     for item in icon_data['icons']:
 
-        if utils.title_to_filename(item['title']) in config.SOFTWARE:
+        icon_name = item['title']
+
+        uri = utils.title_to_filename(item['title'])
+        if uri in config.SOFTWARE:
 
             pre_model += model_str.format(hex_color_left=item['hex'],
                                    hex_bgcolor_left='rgba(255, 255, 255, 0.9)',
                                    hex_color_right='rgba(255, 255, 255, 0.9)',
                                    hex_bgcolor_right=item['hex'],
-                                   icon_name=item['title'],
-                                   title=item['title'].lower())
+                                   icon_name=icon_name,
+                                   title=uri)
     all_css += pre_model
 
     model_css.update({model_name: "{0}{1}".format(css_base, pre_model)})
